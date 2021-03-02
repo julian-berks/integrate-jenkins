@@ -1,0 +1,6 @@
+f = open("files/demofile.txt", "r")
+line1=f.readline()
+f.close()
+w= open("files/demofile2.txt", "a")
+w.write(line1)
+w.close()
